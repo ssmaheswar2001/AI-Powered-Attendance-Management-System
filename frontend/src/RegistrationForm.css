@@ -1,0 +1,53 @@
+.registration-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }
+  
+  .camera-section {
+    margin: 15px 0;
+  }
+  
+  .preview-images {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+  
+  .preview-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
